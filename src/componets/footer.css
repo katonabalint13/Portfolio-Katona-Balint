@@ -1,0 +1,35 @@
+.footer-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  background-color: #ffaf1c;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: larger;
+}
+
+.footer-animation {
+  width: 100px;
+}
+
+@media (max-width: 625px) {
+  .footer-container {
+    text-align: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 340px) {
+  .footer-container {
+    text-align: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+  }
+}

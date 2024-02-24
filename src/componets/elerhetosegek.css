@@ -1,0 +1,193 @@
+.kapcsolat-content {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 100%;
+  margin-bottom: 10rem;
+  padding-top: 2rem;
+}
+.kapcsolat-text p:nth-child(1) {
+  color: #ffaf1c;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.kapcsolat-text h2 {
+  margin: 0.2rem 0rem;
+  font-size: 1.7rem;
+}
+.kapcsolat-box {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.kapcsolat-left {
+  background: #5c1614;
+  padding: 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 300px;
+}
+.kapcsolat-elerhetoseg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.kapcsolat-elerhetoseg h3 {
+  font-size: 1.5rem;
+}
+.email p,
+.tel p {
+  padding: 0;
+  margin: 0.2rem 0rem;
+}
+.email {
+  margin-bottom: 1.5rem;
+}
+.email-anim {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
+.sociala:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.kapcsolat-right {
+  background: #ffaf1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  padding-top: 3rem;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.kapcsolat-right div:nth-child(1) {
+  margin-bottom: 3rem;
+}
+.kapcsolat-right div:nth-child(2) {
+  margin-bottom: 3rem;
+}
+.kapcsolat-message {
+  position: relative;
+}
+.kapcsolat-message label {
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.kapcsolat-message input {
+  height: 32px;
+  width: 300px;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+}
+.kapcsolat-message input:focus {
+  outline: none;
+}
+.kapcsolat-message input:focus ~ label,
+.kapcsolat-message input:valid ~ label {
+  top: -23px;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+.kapcsolat-message textarea {
+  resize: none;
+  height: 32px;
+  width: 300px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  line-height: 1.2rem;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: 0.5s;
+}
+.kapcsolat-message textarea:focus ~ label,
+.kapcsolat-message textarea:valid ~ label {
+  top: -23px;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+.kapcsolat-message textarea:focus,
+.kapcsolat-message textarea:valid {
+  outline: none;
+  height: 120px;
+  transition: 0.5s;
+}
+.kapcsolat-button button {
+  border: none;
+  background: #5c1614;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 1rem;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+.kapcsolat-button button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+@media (max-width: 1200px) {
+  .kapcsolat-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media (max-width: 990px) {
+  .kapcsolat-right {
+    width: 380px;
+  }
+}
+@media (max-width: 750px) {
+  .kapcsolat-box {
+    flex-direction: column;
+  }
+  .kapcsolat-left {
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+  }
+  .email-anim-container {
+    display: flex;
+    justify-content: center;
+  }
+  .kapcsolat-right {
+    padding: 5rem;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 0px;
+    width: 100%;
+  }
+  .kapcsolat-right input,
+  .kapcsolat-right textarea {
+    width: 250px;
+  }
+  .email-anim {
+    width: 200px;
+  }
+}
+@media (max-width: 450px) {
+  .kapcsolat-right {
+    padding: 3rem;
+  }
+}

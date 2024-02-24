@@ -1,0 +1,155 @@
+.project-content {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  width: 90%;
+  margin: 0rem auto 10rem auto;
+  padding: 2rem 0rem;
+}
+.rolam-works {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10rem;
+}
+.works-box {
+  background: #ffaf1c;
+  width: 900px;
+  border-radius: 1rem;
+  color: #fff;
+}
+.works-content {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.work {
+  height: 260px;
+  width: 360px;
+  margin-left: -3rem;
+  background-repeat: no-repeat;
+}
+.work img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.works-text {
+  padding: 0rem 4rem;
+}
+.works-text p:nth-child(1) {
+  color: #ffaf1c;
+  margin: 0;
+}
+.works-text h3 {
+  margin: 0.2rem 0rem 1.5rem 0rem;
+}
+.works-text p {
+  margin: 0.5rem 0rem;
+}
+.technologia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.technologia p {
+  margin: 0rem;
+}
+.italic-text {
+  font-style: italic;
+}
+.demo {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.demo button {
+  border: none;
+  background: #5c1614;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin-top: 0.5rem;
+}
+.demo button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+.demo a {
+  text-decoration: none;
+  color: #fff;
+}
+.works-next {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+}
+.works-next-circle {
+  background: #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 1413px) {
+  .project-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .project-content .rolam-text {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 1181px) {
+  .project-content {
+    margin: 0rem auto 7rem auto;
+  }
+}
+@media (max-width: 1063px) {
+  .works-content {
+    flex-direction: column;
+    margin: 2rem 0rem;
+    gap: 2rem;
+  }
+  .works-box {
+    width: 100%;
+    position: relative;
+  }
+  .work {
+    margin-left: 0;
+    margin-top: -5rem;
+    height: 230px;
+    width: 360px;
+    background-size: cover;
+  }
+  .works-text {
+    max-width: 800px;
+  }
+}
+@media (max-width: 1015px) {
+  .project-content {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 447px) {
+  .work {
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    margin-top: 0;
+  }
+  .works-text {
+    margin-top: 11rem;
+    padding: 0rem 1.5rem;
+  }
+  .works-content {
+    margin: 0rem;
+  }
+  .project-content .rolam-text {
+    margin: 0;
+  }
+}

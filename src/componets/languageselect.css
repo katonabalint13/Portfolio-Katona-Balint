@@ -1,0 +1,21 @@
+.buttons {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  text-decoration: underline;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+@media (min-width: 340px) {
+  .buttons {
+    font-size: x-small;
+  }
+}
+
+@media (min-width: 600px) {
+  .buttons {
+    font-size: medium;
+  }
+}

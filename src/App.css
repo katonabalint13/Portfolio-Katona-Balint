@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #ffaf1c;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: 700;
+  gap: 6rem;
+  background-color: #ffaf1c;
+}
+
+.header-button {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.header-button:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-button:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media (min-width: 340px) {
+  .header-container {
+    font-size: x-small;
+  }
+}
+
+@media (min-width: 600px) {
+  .header-container {
+    font-size: medium;
+  }
+}
