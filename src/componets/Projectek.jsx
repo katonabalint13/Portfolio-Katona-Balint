@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollAnimation from "./ScrollAnimation";
 import rk from "../assets/rk.png";
+import bimg from "../assets/bimg.png";
 import "./projectek.css";
 import { useTranslation } from "react-i18next";
 
@@ -50,7 +51,7 @@ function Projectek() {
             <div className="works-content">
               <div className="works-image">
                 <div className="work">
-                  <img src={rk} />
+                  <img src={bimg} />
                 </div>
               </div>
               <div className="works-text">

@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { gsap } from "gsap";
 import "./bemutatkozas.css";
 import { useTranslation } from "react-i18next";
-import { FaGithubSquare, FaLinkedin, FaCode } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 function Bemutatkozas() {
   const { t } = useTranslation();
