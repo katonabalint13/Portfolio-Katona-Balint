@@ -56,7 +56,7 @@ function Projectek() {
               </div>
               <div className="works-text">
                 <p>Egyéni munka</p>
-                <h3>?</h3>
+                <h3>Balazs Csada Photography</h3>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Veritatis voluptas, quaerat sunt ducimus nostrum iste illum
@@ -66,45 +66,6 @@ function Projectek() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Magnam perspiciatis facere cumque dignissimos esse aut enim
                   consectetur totam ducimus. Ipsam?
-                </p>
-                <div className="technologia">
-                  <p>Technológia:</p>
-                  <p>HTML, CSS, React,</p>
-                </div>
-                <div className="demo">
-                  <a href="https://" target="_blank" rel="noreferrer">
-                    <button>Demo</button>
-                  </a>
-                  <a
-                    href="https://github.com/katonabalint13"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button>GitHub</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation result="works-box">
-            <div className="works-content">
-              <div className="works-image">
-                <div className="work">
-                  <img src={rk} />
-                </div>
-              </div>
-              <div className="works-text">
-                <p>Egyéni munka</p>
-                <h3>?</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis et numquam asperiores dolor magnam eveniet non
-                  rem, sequi amet obcaecati.
-                </p>
-                <p className="italic-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-                  ut, suscipit veniam voluptates perferendis reiciendis autem
-                  perspiciatis? Illum, incidunt sequi?
                 </p>
                 <div className="technologia">
                   <p>Technológia:</p>
