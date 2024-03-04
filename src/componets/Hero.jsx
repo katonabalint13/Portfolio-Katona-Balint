@@ -21,7 +21,7 @@ function Hero() {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/image-full.png)`,
+          backgroundImage: `url(../src/assets/image-full.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
@@ -30,7 +30,7 @@ function Hero() {
       <div
         className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/image-bottom.png)`,
+          backgroundImage: `url(../src/assets/image-bottom.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}
