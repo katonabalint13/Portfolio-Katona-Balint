@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Me from "../assets/me.jpg";
 import ScrollAnimation from "./ScrollAnimation";
 import { useInView } from "react-intersection-observer";

@@ -1,4 +1,3 @@
-import React from "react";
 import ScrollAnimation from "./ScrollAnimation";
 import rk from "../assets/rk.png";
 import bimg from "../assets/bimg.png";
